@@ -1,0 +1,25 @@
+{
+  "name": "showd",
+  "version": "1.0.0",
+  "description": "A CLI to show user data from mongodb",
+  "main": "bin/showd.js",
+  "bin": {
+    "showd": "./bin/showd.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "showd"
+  ],
+  "author": "Lucky Ardhika",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.0.11",
+    "yargs": "^17.2.1"
+  }
+}
