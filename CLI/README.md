@@ -7,3 +7,8 @@ work flow:
 Submit Command > Command Checked (valid or not)</br>
 > if valid > return with results.</br>
 > if not valid > make alert.
+
+<h2>Instalation</h2>
+> npm install -g .
+> git clone <link>
+> showd => to show command
