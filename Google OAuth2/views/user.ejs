@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <style>
+        body {
+            text-align: center;
+            padding: 4vw;
+        } a {
+            padding: 10px;
+            background-color: rgb(198, 241, 241);
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px 1px;
+        } a:hover {
+            box-shadow: none;
+            margin-top: 3px;
+            margin-right: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hi <%= name %></h1>
+    <img src="<%= userDataObj.pictureUrl %>" alt="pictures">
+    <p><%= userDataObj.email %></p>
+    <h3>This is your data:</h3>
+    <p><%= userData %></p>
+    <a href="/logout">Logout</a>
+</body>
+</html>
