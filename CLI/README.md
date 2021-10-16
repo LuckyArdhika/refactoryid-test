@@ -3,7 +3,6 @@
 A CLI application dedicated to displaying user data that has been registered in the Google OAuth2 application in this folder.
 </br>
 <h2>work flow:</h2>
-</br>
 Submit Command > Command Checked (valid or not)</br>
 > if valid > return with results where results gets from URI mongodb.</br>
 > if not valid > make alert.
