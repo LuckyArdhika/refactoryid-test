@@ -9,6 +9,10 @@ Submit Command > Command Checked (valid or not)</br>
 > if not valid > make alert.
 
 <h2>Instalation</h2>
-> npm install -g .</br>
 > git clone <link></br>
-> showd => to show command
+> npm install -g .</br>
+<h2>Usage:</h2>
+> showd --help => {to show command list}
+> showd --version => {to check version of the programs}
+> shod -s => {to show all data user}
+> 
