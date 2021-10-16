@@ -23,13 +23,11 @@ function isLoggedIn(req, res, next) {
 }
 
 app.set('view engine','ejs');
-app.use(session({ secret: dbdata.session.cookieKey, resave: false, saveUninitialized: true }));
+app.use(session({ secret: dbdata.session.cookieKey, resave: false, saveUninitialized: true, cookie: { maxAge: 60000 }}));
 app.use(passport.initialize());
 app.use(passport.session());
 
 // oauth configuration for mongodb
-
-
 app.get('/', (req, res) => {
   res.render('index');
 });
