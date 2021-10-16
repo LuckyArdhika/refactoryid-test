@@ -9,8 +9,8 @@ Submit Command > Command Checked (valid or not)</br>
 
 <h2>Instalation</h2>
 > git clone https://github.com/LuckyArd110/refactoryid-test.git</br>
-> cd refactoryid-test/CLI
-> npm install -g .</br>
+> cd refactoryid-test/CLI</br>
+> npm install -g .
 
 <h2>Usage:</h2>
 <pre>
