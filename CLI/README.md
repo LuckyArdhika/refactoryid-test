@@ -5,14 +5,15 @@ A CLI application dedicated to displaying user data that has been registered in 
 work flow:
 </br>
 Submit Command > Command Checked (valid or not)</br>
-> if valid > return with results.</br>
+> if valid > return with results where results gets from URI mongodb.</br>
 > if not valid > make alert.
 
 <h2>Instalation</h2>
 > git clone <link></br>
 > npm install -g .</br>
+
 <h2>Usage:</h2>
-> showd --help => {to show command list}
+> showd -h => {to show all supported command}
 > showd --version => {to check version of the programs}
-> shod -s => {to show all data user}
-> 
+> showd -s => {to show all data user from all user}
+> showd -q => {to show all data from top user}
