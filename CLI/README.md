@@ -4,5 +4,6 @@ A CLI application dedicated to displaying user data that has been registered in 
 </br>
 work flow:
 </br>
-Submit Command > Command Checked (valid or not) > if valid > return with results.</br>
-                                                > if not valid > make alert.
+Submit Command > Command Checked (valid or not)</br>
+> if valid > return with results.</br>
+> if not valid > make alert.
